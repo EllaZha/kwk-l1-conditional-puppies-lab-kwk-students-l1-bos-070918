@@ -29,6 +29,7 @@ def some_puppies(number_of_puppies, maximum_puppy_allowance)
   else number_of_puppies > maximum_puppy_allowance
     "Go back to you animal goals!"
   end
+end
 puts some_puppies(25,24)
 
 # BONUS
