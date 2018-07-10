@@ -5,6 +5,7 @@ def no_puppies(number_of_puppies)
     "No more puppies"
   else
     "Well done, Rachel"
+  end
 end
 puts no_puppies(5)
 
