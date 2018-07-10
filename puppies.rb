@@ -3,7 +3,7 @@
 def no_puppies(number_of_puppies)
   if number_of_puppies > 0 
     "No more puppies"
-  else
+  else number_of_puppies == 0
     "Well done, Rachel"
   end
 end
@@ -15,9 +15,9 @@ def less_puppies(number_of_puppies)
   if number_of_puppies < 3
     "Good job, Rachel!"
   elsif number_of_puppies == 3
-  "Slow down!"
+  "Slow down No more puppies."
 else number_of_puppies > 3
-  "Get back on puppy restriction!"
+  "Get back to your animal goals!"
 end
 end
 puts less_puppies(3) 
@@ -26,9 +26,9 @@ puts less_puppies(3)
 
 def some_puppies(number_of_puppies, maximum_puppy_allowance)
   if number_of_puppies < (maximum_puppy_allowance/2)
-    "Good job!"
+    "Good job, Rachel!"
   else number_of_puppies > maximum_puppy_allowance
-    "Go back to you animal goals!"
+    "Get back to your animal goals!"
   end
 end
 puts some_puppies(25,24)
